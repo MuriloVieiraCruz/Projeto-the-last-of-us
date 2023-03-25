@@ -5,6 +5,13 @@
 }
 
 @media (max-width: 768px) {
+
+	main:after {
+		background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,0.9416141456582633) 0%, rgba(191,191,191,0) 48%, 
+		rgba(0,0,0,0.9444152661064426) 100%);
+	}
+
 	.informacoes {
 		display: flex;
 		flex-direction: column;
@@ -20,6 +27,12 @@
 @media (max-width: 425px) {
 	.informacoes .logo {
 		max-width: 300px;
+	}
+
+	main:after {
+		background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,0.9416141456582633) 0%, rgba(191,191,191,0) 48%, 
+		rgba(0,0,0,0.9444152661064426) 100%);
 	}
 
 	.informacoes .descricao {
